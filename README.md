@@ -10,77 +10,81 @@
 
 
 
-INTRODUCCIÓN 
+Proyecto de Creación de Base de Datos Relacional 
+
+## INTRODUCCIÓN 
 
 Este proyecto trata de la creación de una base de datos relacional a partir de los datos proporcionados en 5 archivos .csv. Los datos se refieren a un grupo de estudiantes de una escuela de bootcamps junto con el claustro de profesores. 
 
  
 
-DATOS DE ENTRADA 
+## DATOS DE ENTRADA 
 
 Los datos proporcionados en cada archivo .csv son los siguientes: 
 
 Clase_1.csv y clase_2.csv: 
 
-Nombre 
+- Nombre 
 
-Email 
+- Email 
 
-Promoción (mes) 
+- Promoción (mes) 
 
-Fecha_comienzo (DD/MM/AAAA) 
+- Fecha_comienzo (DD/MM/AAAA) 
 
-Campus (ciudad) 
+- Campus (ciudad) 
 
-Proyecto_HLF (Apto/No apto) 
+- Proyecto_HLF (Apto/No apto) 
 
-Proyecto_EDA (Apto/No apto) 
+- Proyecto_EDA (Apto/No apto) 
 
-Proyecto_BBDD (Apto/No apto) 
+- Proyecto_BBDD (Apto/No apto) 
 
-Proyecto_ML (Apto/No apto) 
+- Proyecto_ML (Apto/No apto) 
 
-Proyecto_Deployment (Apto/No apto) 
+- Proyecto_Deployment (Apto/No apto) 
+
 
 Clase_3.csv y clase_4.csv: 
 
-Nombre; 
+- Nombre; 
 
-Email; 
+- Email; 
 
-Promoción; 
+- Promoción; 
 
-Fecha_comienzo; 
+- Fecha_comienzo; 
 
-Campus; 
+- Campus; 
 
-Proyecto_WebDev; 
+- Proyecto_WebDev; 
 
-Proyecto_FrontEnd; 
+- Proyecto_FrontEnd; 
 
-Proyecto_Backend; 
+- Proyecto_Backend; 
 
-Proyecto_React; 
+- Proyecto_React; 
 
-Proyecto_FullSatck 
+- Proyecto_FullSatck 
+
 
 Claustro.csv: 
 
-Nombre 
+- Nombre 
 
-Rol (TA/  LI) 
+- Rol (TA/  LI) 
 
-Vertical (DS/FS) 
+- Vertical (DS/FS) 
 
-Promocion (mes) 
+- Promocion (mes) 
 
-Campus (ciudad) 
+- Campus (ciudad) 
 
-Modalidad (Online/Presencial) 
+- Modalidad (Online/Presencial) 
 
  
 
-ETAPAS DEL PROYECTO 
+## ETAPAS DEL PROYECTO 
 
 Modelo Entidad-Relación (E/R): Diseñar un modelo E/R que represente la estructura de la base de datos normalizada. Definir las entidades, atributos y relaciones entre ellas. 
 
@@ -94,9 +98,9 @@ Render
 
 Se deberá de tener en cuenta la escalabilidad de la base de datos. Es decir, tiene que ser capaz de poder crecer en campus (Madrid, Valencia,...), verticales (DS, FS,...), promociones (Septiembre, Febrero,...), Modalidad (Online, Presencial,...), aulas, etc... 
 
- 
 
-ENTREGABLES 
+
+## ENTREGABLES 
 
 Diagrama del modelo Entidad-Relación (E/R). 
 
@@ -110,13 +114,15 @@ Se deberá mostrar la base de datos ingestada según la solución propuesta y un
 
  
 
-DIAGRAMA DEL MODELO ENTIDAD-RELACIÓN (E/R) 
+## DIAGRAMA DEL MODELO ENTIDAD-RELACIÓN (E/R) 
 
 Un diagrama ERD es una herramienta visual que permite modelar las relaciones entre las entidades de un sistema, facilitando el diseño de bases de datos y la comprensión de la estructura de la información.   
 
 Para este proyecto el diagrama planteado es el siguiente: 
 
-ImagenRetos encontrados: 
+ GRAFICO
+
+Retos encontrados: 
 
 Se han creado 8 tablas que recogen todas las variables de las tablas. 
 
@@ -124,27 +130,23 @@ Clase-Profesor es N:M: se ha tenido que crear una tabla intermedia que se ha lla
 
  
 
-DIAGRAMA DEL MODELO LÓGICO DE LA BASE DE DATOS: 
+## DIAGRAMA DEL MODELO LÓGICO DE LA BASE DE DATOS: 
 
 Un diagrama del modelo lógico de una base de datos muestra la estructura conceptual de la información almacenada, incluyendo las entidades, atributos y relaciones entre ellas, sin especificar la tecnología o implementación concreta. Este diagrama es una herramienta esencial para comprender cómo se organiza y se relaciona la información en una base de datos, permitiendo identificar problemas y optimizar el diseño.   
 
 Para este proyecto el diagrama planteado es el siguiente: 
 
-Imagen 
+ GRAFICO
 
-SCRIPTS SQL O COMANDOS UTILIZADOS PARA CREAR LA BASE DE DATOS Y LAS TABLAS 
-
- 
+## SCRIPTS SQL O COMANDOS UTILIZADOS PARA CREAR LA BASE DE DATOS Y LAS TABLAS 
 
  
 
  
 
-BASE DE DATOS FUNCIONAL CON LOS DATOS IMPORTADOS Y CONSUMIBLES CON QUERIES DE CONSULTA 
-
  
 
- 
+## BASE DE DATOS FUNCIONAL CON LOS DATOS IMPORTADOS Y CONSUMIBLES CON QUERIES DE CONSULTA 
 
  
 
