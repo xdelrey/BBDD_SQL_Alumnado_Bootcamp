@@ -121,7 +121,7 @@ Un diagrama ERD es una herramienta visual que permite modelar las relaciones ent
 Para este proyecto el diagrama planteado es el siguiente: 
 
 
-![relational_model](img/relational_model.png)
+![relational_model](diagramas/relational_model.png)
 
 Retos encontrados: 
 
@@ -147,7 +147,7 @@ GRAFICO
     -primary key
     -cómo se relacionan las keys de unas tablas con otras
 
-![diagrama_logico.drawio_page-0001](img/diagrama_logico.drawio_page-0001.jpg)
+![diagrama_logico.drawio_page-0001](diagramas/diagrama_logico.drawio_page-0001.jpg)
 
   - Se cargan los 5 archivos.csv y se pasan a 5 dataframes: df1, df2, df3, df4 y df_claustro
   - Se crea un dataframe llamado df_total con los df1, df2, df3 y df4.
