@@ -140,8 +140,31 @@ Para este proyecto el diagrama planteado es el siguiente:
 
 ## SCRIPTS SQL O COMANDOS UTILIZADOS PARA CREAR LA BASE DE DATOS Y LAS TABLAS 
 
- 
+  -Se crean las tablas ya definidas, con:
+    -tipo de datos
+    -longitud
+    -primary key
+    -cómo se relacionan las keys de unas tablas con otras
 
+PANTALLAZO DE LAS TABLAS
+
+  - Se cargan los 5 archivos.csv y se pasan a 5 dataframes: df1, df2, df3, df4 y df_claustro
+  - Se crea un dataframe llamado df_total con los df1, df2, df3 y df4.
+  - Primero se generan los DF que se generan facilmente con los datos de los CSV
+  - Despues se generan los DF que tienen mas keys, mas vinculaciones con otras tablas.
+  - Los DF que se generan son:
+       -VERTICAL
+       -PROMOCIÓN
+       -CAMPUS
+       -PROYECTO
+       -PROFESORADO
+       -CLASE
+       -CUADRANTE
+       -ALUMNOS
+       -NOTAS
+    - La programación de esos FS se hace 
+
+    
  
 
  
