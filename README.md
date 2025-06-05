@@ -122,6 +122,8 @@ Para este proyecto el diagrama planteado es el siguiente:
 
 GRAFICO
 
+![relational_model](img/relational_model.png)
+
 Retos encontrados: 
 
 Se han creado 8 tablas que recogen todas las variables de las tablas. 
@@ -146,7 +148,7 @@ GRAFICO
     -primary key
     -cómo se relacionan las keys de unas tablas con otras
 
-PANTALLAZO DE LAS TABLAS
+![diagrama_logico.drawio_page-0001](img/diagrama_logico.drawio_page-0001.jpg)
 
   - Se cargan los 5 archivos.csv y se pasan a 5 dataframes: df1, df2, df3, df4 y df_claustro
   - Se crea un dataframe llamado df_total con los df1, df2, df3 y df4.
