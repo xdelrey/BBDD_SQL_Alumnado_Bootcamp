@@ -120,7 +120,7 @@ Un diagrama ERD es una herramienta visual que permite modelar las relaciones ent
 
 Para este proyecto el diagrama planteado es el siguiente: 
 
- GRAFICO
+(img/relational_model.png)
 
 Retos encontrados: 
 
@@ -136,7 +136,7 @@ Un diagrama del modelo lógico de una base de datos muestra la estructura concep
 
 Para este proyecto el diagrama planteado es el siguiente: 
 
- GRAFICO
+(img/diagrama_logico.drawio_page-0001.jpg)
 
 ## SCRIPTS SQL O COMANDOS UTILIZADOS PARA CREAR LA BASE DE DATOS Y LAS TABLAS 
 
