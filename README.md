@@ -137,7 +137,7 @@ Un diagrama del modelo lógico de una base de datos muestra la estructura concep
 
 Para este proyecto el diagrama planteado es el siguiente: 
 
-GRAFICO
+![diagrama_logico.drawio_page-0001](diagramas/diagrama_logico.drawio_page-0001.jpg)
 
 ## SCRIPTS SQL O COMANDOS UTILIZADOS PARA CREAR LA BASE DE DATOS Y LAS TABLAS 
 
@@ -146,8 +146,6 @@ GRAFICO
     -longitud
     -primary key
     -cómo se relacionan las keys de unas tablas con otras
-
-![diagrama_logico.drawio_page-0001](diagramas/diagrama_logico.drawio_page-0001.jpg)
 
   - Se cargan los 5 archivos.csv y se pasan a 5 dataframes: df1, df2, df3, df4 y df_claustro
   - Se crea un dataframe llamado df_total con los df1, df2, df3 y df4.
