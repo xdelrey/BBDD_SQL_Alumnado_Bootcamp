@@ -120,7 +120,6 @@ Un diagrama ERD es una herramienta visual que permite modelar las relaciones ent
 
 Para este proyecto el diagrama planteado es el siguiente: 
 
-GRAFICO
 
 ![relational_model](img/relational_model.png)
 
