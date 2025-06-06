@@ -14,17 +14,24 @@ INNER JOIN promocion ON clase.promocion_id = promocion.id_promocion
 WHERE promocion.nombre = 'Septiembre'
 
 
--- Obtener los alumnos que han aprobado la asignatura 'Proyecto_HLF'
+-- Obtener los alumnos que han aprobado la asignatura 'Proyecto_FrontEnd'
 
-SELECT alumno.nombre, proyecto.nombre_proyecto, notas.calificacion FROM notas
+SELECT alumno.nombre, proyecto.nombre_proyecto, notas.calificacion 
+CASE
+WHEN notas.calificacion = 'Apto' THEN true
+ELSE false
+END
+FROM notas
 INNER JOIN alumno ON notas.alumno_id = alumno.id_alumno
 INNER JOIN proyecto ON notas.proyecto_id = proyecto.id_proyecto
-WHERE proyecto.nombre_proyecto = 'Proyecto_FrontEnd' AND notas.calificacion = true -- o 'Apto'?
+WHERE proyecto.nombre_proyecto = 'Proyecto_FrontEnd' AND notas.calificacion = 'Apto'
 
--- Obtener los profesores de Data Science de la promoción de febrero
+  
+-- Obtener los profesores de Data Science de la promoción de septiembre
 
-SELECT profesorado.nombre, vertical.bootcamp, promocion.nombre FROM clase
-INNER JOIN profesorado ON clase.profesor_id = profesorado.id_profesor
-INNER JOIN promocion ON clase.promocion_id = promocion.id_promocion
+SELECT profesorado.nombre, vertical.bootcamp, promocion.nombre FROM cuadrante
+INNER JOIN clase ON cuadrante.clase_id = clase.id_clase
+INNER JOIN profesorado ON cuadrante.profesor_id = profesorado.id_profesor
 INNER JOIN vertical ON clase.vertical_id = vertical.id_vertical
-WHERE vertical.bootcamp = 'DS' AND promocion.nombre = 'Febrero'
+INNER JOIN promocion ON clase.promocion_id = promocion.id_promocion
+WHERE vertical.bootcamp = 'DS' AND promocion.nombre = 'Septiembre'
