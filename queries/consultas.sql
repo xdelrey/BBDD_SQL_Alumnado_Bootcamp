@@ -27,11 +27,11 @@ INNER JOIN proyecto ON notas.proyecto_id = proyecto.id_proyecto
 WHERE proyecto.nombre_proyecto = 'Proyecto_FrontEnd' AND notas.calificacion = 'Apto'
 
   
--- Obtener los profesores de Data Science de la promoción de febrero
+-- Obtener los profesores de Data Science de la promoción de septiembre
 
 SELECT profesorado.nombre, vertical.bootcamp, promocion.nombre FROM cuadrante
 INNER JOIN clase ON cuadrante.clase_id = clase.id_clase
 INNER JOIN profesorado ON cuadrante.profesor_id = profesorado.id_profesor
 INNER JOIN vertical ON clase.vertical_id = vertical.id_vertical
 INNER JOIN promocion ON clase.promocion_id = promocion.id_promocion
-WHERE vertical.bootcamp = 'DS' AND promocion.nombre = 'Febrero'
+WHERE vertical.bootcamp = 'DS' AND promocion.nombre = 'Septiembre'
