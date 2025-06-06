@@ -199,7 +199,7 @@ El resultado es una base de datos funcional, estructurada y optimizada para ser 
 
 - Obtención de los alumnos que han aprobado la asignatura 'Proyecto_HLF'
 
-- Obtención de los profesores de Data Science de la promoción de febrero
+- Obtención de los profesores de Data Science de la promoción de septiembre
 
 
 
