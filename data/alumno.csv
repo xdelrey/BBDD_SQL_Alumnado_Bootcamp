@@ -1,4 +1,4 @@
-id_alumno,Nombre,Email,id_clase
+id_alumno,nombre,email,clase_id
 0,Jafet Casals,Jafet_Casals@gmail.com,0
 1,Jorge Manzanares,Jorge_Manzanares@gmail.com,0
 2,Onofre Adadia,Onofre_Adadia@gmail.com,0

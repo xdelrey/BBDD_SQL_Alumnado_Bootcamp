@@ -1,4 +1,4 @@
-id_cuadrante,id_profesor,id_clase
+id_cuadrante,profesor_id,clase_id
 0,0,0
 1,1,0
 2,2,2
