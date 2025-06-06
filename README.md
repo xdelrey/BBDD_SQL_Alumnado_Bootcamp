@@ -118,6 +118,8 @@ Inicialmente se han creado 8 tablas que recogen todas las variables de las tabla
 
 Clase-Profesor es N:M y por lo tanto se ha tenido que crear una tabla intermedia que se ha llamado CUADRANTE. Así todas las conexiones son 1:N. 
 
+Por lo tanto quedan definidas un total de 9 tablas.
+
  
 
 ## DIAGRAMA DEL MODELO LÓGICO DE LA BASE DE DATOS: 
@@ -187,6 +189,18 @@ Una vez finalizada la elaboración de los nueve DataFrames en el entorno de trab
 Posteriormente, estos archivos .CSV se utilizan como fuente para la creación de una base de datos relacional en PostgreSQL, mediante la interfaz gráfica de administración PgAdmin4. Este entorno facilita la importación de datos, el diseño del esquema relacional, y la posterior ejecución de consultas SQL para la exploración, análisis y explotación de los datos.
 
 El resultado es una base de datos funcional, estructurada y optimizada para ser consultada mediante sentencias SQL, lo que permite obtener información específica, generar informes y realizar análisis avanzados sobre los datos recopilados.
+
+
+##  CONSULTAS GENERADAS PARA COMPROBAR EL FUNCIONAMIENTO DEL SISTEMA CREADO (QUERIES)
+
+- Obtención de la cantidad de alumnos que hay por campus
+
+- Obtención de los alumnos que pertenecen a la promoción de septiembre
+
+- Obtención de los alumnos que han aprobado la asignatura 'Proyecto_HLF'
+
+- Obtención de los profesores de Data Science de la promoción de febrero
+
 
 
 
