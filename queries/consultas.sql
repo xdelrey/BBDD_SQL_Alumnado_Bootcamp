@@ -1,10 +1,9 @@
 -- Obtener la cantidad de alumnos que hay por campus
 
-SELECT campus.nombre, COUNT(alumno.id_alumno) FROM alumno;
+SELECT campus.ubicacion, COUNT(alumno.id_alumno) FROM alumno
 INNER JOIN clase ON alumno.clase_id = clase.id_clase
 INNER JOIN campus ON clase.campus_id = campus.id_campus
-GROUP BY campus.nombre
-
+GROUP BY campus.ubicacion
 
 -- Obtener los alumnos que pertenecen a la promoción de septiembre
 
@@ -17,14 +16,10 @@ WHERE promocion.nombre = 'Septiembre'
 -- Obtener los alumnos que han aprobado la asignatura 'Proyecto_FrontEnd'
 
 SELECT alumno.nombre, proyecto.nombre_proyecto, notas.calificacion 
-CASE
-WHEN notas.calificacion = 'Apto' THEN true
-ELSE false
-END
 FROM notas
 INNER JOIN alumno ON notas.alumno_id = alumno.id_alumno
 INNER JOIN proyecto ON notas.proyecto_id = proyecto.id_proyecto
-WHERE proyecto.nombre_proyecto = 'Proyecto_FrontEnd' AND notas.calificacion = 'Apto'
+WHERE proyecto.nombre_proyecto = 'Proyecto_FrontEnd' AND notas.calificacion = true
 
   
 -- Obtener los profesores de Data Science de la promoción de septiembre
