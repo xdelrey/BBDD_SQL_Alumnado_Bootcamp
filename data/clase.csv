@@ -1,6 +1,5 @@
-id_clase,campus_id,promocion_id,vertical_id,modalidad
-0,0,0,0,Presencial
-2,0,0,1,Presencial
-3,1,0,1,Presencial
-4,1,1,1,Presencial
-5,0,1,1,Presencial
+id_clase,campus_id,promocion_id,vertical_id
+1,0,0,0
+2,0,1,0
+3,0,0,1
+4,1,1,1
